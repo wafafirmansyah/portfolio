@@ -1,0 +1,36 @@
+section.contact {
+  padding: 200px 0;
+}
+
+section.contact .container {
+  margin: auto;
+}
+
+section.contact .container h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #14b8a7;
+}
+
+section.contact .container h1 {
+  font-size: 40px;
+}
+
+section.contact .container p {
+  margin: auto;
+  color: grey;
+}
+
+section.contact form {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+section.contact form input,textarea {
+  padding: 5px;
+}
+
+section.contact form button {
+  width: 20%;
+  margin: 20px auto;
+}

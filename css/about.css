@@ -1,0 +1,27 @@
+section.about {
+    background-color: #eee;
+    padding: 200px 0;
+  }
+  
+  section.about .container {
+    margin: auto;
+  }
+  
+  section.about .container h3 {
+    text-align: center;
+    padding-bottom: 20px;
+    color: #14b8a7;
+  }
+  
+  section.about .content {
+    margin: auto;
+    width: fit-content;
+  }
+  
+  section.about .content h1 {
+    padding-top: 20px;
+  }
+  
+  section.about .content a img {
+    max-width: 50px;
+  }

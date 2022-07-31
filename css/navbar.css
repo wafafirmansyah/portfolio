@@ -1,0 +1,43 @@
+nav {
+  position: fixed;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  background-color: white;
+  z-index: 9999;
+  opacity: 90%;
+  left: 0;
+  right: 0;
+  padding-top: 30px;
+}
+
+nav .hamburger-menu div{
+  display: none;
+}
+
+nav .container {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  border-radius: 20px;
+  transition: 0.2s;
+}
+
+nav .item a:hover {
+  background-color: #14b8a7;
+  color: white;
+}
+
+nav h1 a {
+  color: #14b8a7;
+}

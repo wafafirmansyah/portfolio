@@ -1,0 +1,35 @@
+section.client {
+    background-color: #1c2839;
+    padding: 200px 0;
+  }
+  
+  section.client .container {
+    margin: auto;
+  }
+  
+  section.client h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #14b8a7;
+  }
+  
+  section.client h1 {
+    font-size: 40px;
+    color: white;
+  }
+  
+  section.client p {
+    color: #aaa;
+    width: 50%;
+    margin: auto;
+  }
+  
+  section.client .picture {
+    display: flex;
+    margin: 30px auto;
+    text-align: center;
+  }
+  
+  section.client .picture a img {
+    max-width: 50%;
+  }
