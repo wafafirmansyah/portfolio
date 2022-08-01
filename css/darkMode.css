@@ -3,6 +3,11 @@
     color: white;
 } 
 
+.toggle-container {
+    display: flex;
+    padding-right: 20px;
+}
+
 input[type='checkbox']{
     position: relative;
     width: 40px;

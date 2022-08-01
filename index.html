@@ -23,20 +23,24 @@
       <div class="container">
         <h1><a href="#">wafa</a></h1>
         <div class="item">
-          <ul>
+          <ul class="menu-list">
             <li><a href="#">beranda</a></li>
-            <li><a href="#">about</a></li>
-            <li><a href="#">portfolio</a></li>
-            <li><a href="#">clients</a></li>
-            <li><a href="#">blog</a></li>
-            <li><a href="#">contact</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#client">clients</a></li>
+            <li><a href="#blog">blog</a></li>
+            <li><a href="#contact">contact</a></li>
           </ul>
+          <div class="toggle-container">
+            <div class="sun"></div>
+            <input type="checkbox"></input>
+            <div class="moon"></div>
+          </div>
           <div class="hamburger-menu">
             <div></div>
             <div></div>
             <div></div>
           </div>
-          <input type="checkbox"></input>
         </div>
       </div>
     </nav>
@@ -61,7 +65,7 @@
     <!-- HERO END -->
 
     <!-- ABOUT -->
-    <section class="about">
+    <section id="about" class="about">
       <div class="container">
         <h3>about me</h3>
         <div class="content">
@@ -74,7 +78,7 @@
     <!-- ABOUT END -->
 
     <!-- PORTFOLIO -->
-    <section class="portfolio">
+    <section id="portfolio" class="portfolio">
       <div class="container">
         <div class="progres">
           <h3>portfolio</h3>
@@ -124,7 +128,7 @@
     <!-- PORTFOLIO END -->
 
     <!-- CLIENTS -->
-    <section class="client">
+    <section id="client" class="client">
       <div class="container">
         <h3>client</h3>
         <h1>yang pernah bekerjasama</h1>
@@ -138,7 +142,7 @@
     <!-- CLIENTS END -->
 
     <!-- BLOG -->
-    <section class="blog">
+    <section id="blog" class="blog">
       <div class="container">
         <h3>blog</h3>
         <h1>tulisan terkini</h1>
@@ -168,7 +172,7 @@
     <!-- BLOG END-->
 
     <!-- CONTACT -->
-    <section class="contact">
+    <section id="contact" class="contact">
       <div class="container">
         <h3>contact</h3>
         <h1>contact me</h1>
@@ -196,7 +200,7 @@
           <h1>wafas</h1>
           <h2>contact me</h2>
           <ul>
-            <li><a href="#">wafafirmansyh@gmail.com</a></li>
+            <li><a href="mailto:wafafirmansyh@gmail.com">wafafirmansyh@gmail.com</a></li>
             <li>
               <a
                 href="https://www.google.com/maps/place/Kopang+Rembiga,+Kopang,+Central+Lombok+Regency,+West+Nusa+Tenggara/@-8.6404336,116.3407094,14z/data=!3m1!4b1!4m5!3m4!1s0x2dcdb4705a93f99f:0x5030bfbcaf7d8a0!8m2!3d-8.641064!4d116.3574136"
@@ -218,11 +222,11 @@
           <h3>tautan</h3>
           <ul>
             <li><a href="#">beranda</a></li>
-            <li><a href="#">tentang saya</a></li>
-            <li><a href="#">portfolio</a></li>
-            <li><a href="#">client</a></li>
-            <li><a href="#">blog</a></li>
-            <li><a href="#">contact</a></li>
+            <li><a href="#about">tentang saya</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#client">client</a></li>
+            <li><a href="#blog">blog</a></li>
+            <li><a href="#contact">contact</a></li>
           </ul>
         </div>
       </div>
@@ -232,5 +236,6 @@
     <!-- FOOTER END -->
 
     <script src="javascript/darkMode.js"></script>
+    <script src="javascript/hamburgerMenu.js"></script>
   </body>
 </html>

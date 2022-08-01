@@ -8,14 +8,25 @@
     display: none;
   }
 
+  nav .item ul.active {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 40px;
+    background-color: grey;
+    padding: 20px;
+    border-radius: 20px;
+  }
+
   nav .hamburger-menu {
+    z-index: 1;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     flex-direction: row;
     width: 30px;
     height: 25px;
-    margin-right: 40px;
   }
   
   nav .hamburger-menu div{
@@ -28,15 +39,15 @@
     transition: .2s;
   }
 
-  nav .hamburger-menu:active div:nth-child(1) {
+  nav .hamburger-menu.active div:nth-child(1) {
     transform:rotate(35deg);
   }
   
-  nav .hamburger-menu:active div:nth-child(2) {
+  nav .hamburger-menu.active div:nth-child(2) {
     opacity: 0;
   }
   
-  nav .hamburger-menu:active div:nth-child(3) {
+  nav .hamburger-menu.active div:nth-child(3) {
     transform: rotate(-35deg);
   }
   /* NAV END */
