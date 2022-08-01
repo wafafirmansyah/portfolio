@@ -1,5 +1,5 @@
 .dark-mode {
-    background-color: black;
+    background-color: #1c2839;
     color: white;
 } 
 
@@ -32,4 +32,16 @@ input[type='checkbox']::before {
 }
 input[type='checkbox']:checked::before{
     transform: translateX(20px);
+}
+
+.dark-mode section.about{
+    background-color: #1c2839;
+}
+
+.dark-mode section.client {
+    background-color: #1c2839;
+}
+
+.dark-mode section.blog {
+    background-color: #1c2839;
 }

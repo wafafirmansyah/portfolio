@@ -1,54 +1,53 @@
 section.footer {
-    background-color: #1c2839;
-  }
-  
-  section.footer .container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    padding: 100px 0;
-    color: white;
-    margin: 30px auto;
-    font-weight: bold;
-    text-align: center;
-  }
-  
-  section.footer .container ul li {
-    list-style: none;
-    padding: 5px;
-  }
-  
-  section.footer .container ul li a {
-    color: white;
-    text-decoration: none;
-    transition: 0.2s;
-  }
-  
-  section.footer .container ul li a:hover {
-    color: #14b8a7;
-  }
-  
-  section.footer .left-grid a {
-    color: white;
-  }
-  
-  section.footer .left-grid h2 {
-    padding-bottom: 20px;
-  }
-  
-  section.footer .center-grid h3 {
-    padding-bottom: 20px;
-  }
-  
-  section.footer .right-grid h3 {
-    padding-bottom: 20px;
-  }
-  
-  section.footer {
-    text-align: center;
-    padding-top: 20px;
-  }
-  
-  section.footer p {
-    padding: 30px;
-    color: white;
-  }
+  background-color: #111925;
+}
+
+section.footer .container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  color: white;
+  margin: 30px auto;
+  font-weight: bold;
+  text-align: center;
+}
+
+section.footer .container ul li {
+  list-style: none;
+  padding: 5px;
+}
+
+section.footer .container ul li a {
+  color: white;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+section.footer .container ul li a:hover {
+  color: #14b8a7;
+}
+
+section.footer .left-grid a {
+  color: white;
+}
+
+section.footer .left-grid h2 {
+  padding-bottom: 20px;
+}
+
+section.footer .center-grid h3 {
+  padding-bottom: 20px;
+}
+
+section.footer .right-grid h3 {
+  padding-bottom: 20px;
+}
+
+section.footer {
+  text-align: center;
+  padding-top: 20px;
+}
+
+section.footer p {
+  padding: 30px;
+  color: white;
+}

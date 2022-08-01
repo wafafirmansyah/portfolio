@@ -1,61 +1,61 @@
 section.portfolio {
-    padding: 200px 0px;
-  }
-  
-  section.portfolio .container {
-    margin: auto;
-    text-align: center;
-  }
-  
-  section.portfolio p {
-    color: grey;
-  }
-  
-  section.portfolio .progres h3,
-  h1,
-  p {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  section.portfolio .progres h3 {
-    color: #14b8a7;
-  }
-  
-  section.portfolio .progres h1 {
-    font-size: 40px;
-  }
-  
-  section.portfolio .finish {
-    margin-top: 100px;
-  }
-  
-  section.portfolio .finish h3,
-  h1,
-  p {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  section.portfolio .finish h1 {
-    font-size: 40px;
-  }
-  
-  section.portfolio .picture {
-    display: flex;
-  }
-  
-  section.portfolio .picture img {
-    margin-top: 40px;
-    width: 90%;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-  }
-  
-  section.portfolio .picture h3 {
-    margin: 20px 0;
-  }
-  
-  section.portfolio .picture p {
-    width: 90%;
-    text-align: left;
-  }
+  padding: 200px 0px;
+}
+
+section.portfolio .container {
+  margin: auto;
+  text-align: center;
+}
+
+section.portfolio p {
+  color: grey;
+}
+
+section.portfolio .progres h3,
+h1,
+p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+section.portfolio .progres h3 {
+  color: #14b8a7;
+}
+
+section.portfolio .progres h1 {
+  font-size: 40px;
+}
+
+section.portfolio .finish {
+  margin-top: 100px;
+}
+
+section.portfolio .finish h3,
+h1,
+p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+section.portfolio .finish h1 {
+  font-size: 40px;
+}
+
+section.portfolio .picture {
+  display: flex;
+}
+
+section.portfolio .picture img {
+  margin-top: 40px;
+  width: 90%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+section.portfolio .picture h3 {
+  margin: 20px 0;
+}
+
+section.portfolio .picture p {
+  width: 90%;
+  text-align: left;
+}

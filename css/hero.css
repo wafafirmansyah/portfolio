@@ -1,11 +1,12 @@
 section.hero {
     padding-top: 100px;
-  }
+}
 
 section.hero .container {
     margin: auto;
     display: flex;
-    justify-content: space-between;}
+    justify-content: space-between;
+}
   
 section.hero .container {
     display: flex;

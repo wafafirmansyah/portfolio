@@ -9,6 +9,11 @@ nav {
   padding-top: 30px;
 }
 
+nav input {
+  margin-left: -300px;
+  margin-top: 5px;
+}
+
 nav .hamburger-menu div{
   display: none;
 }

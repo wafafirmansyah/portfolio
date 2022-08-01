@@ -1,58 +1,58 @@
 section.blog {
-    padding: 200px 0;
-    background-color: #eee;
-  }
-  
-  section.blog .container {
-    margin: auto;
-  }
-  
-  section.blog .container h3 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #14b8a7;
-  }
-  
-  section.blog .container h1 {
-    font-size: 40px;
-  }
-  
-  section.blog .container p {
-    width: 50%;
-    margin: auto;
-    color: grey;
-  }
-  
-  section.blog .content {
-    width: 80%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
-  
-  section.blog .content .item {
-    margin: 30px 10px;
-    width: 70%;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
-    overflow: hidden;
-  }
-  
-  section.blog .content img {
-    width: 100%;
-    max-height: 100px;
-  }
-  
-  section.blog .content h3 {
-    padding: 20px;
-  }
-  
-  section.blog .content p {
-    margin-left: 20px;
-    text-align: left;
-    color: grey;
-  }
-  
-  section.blog .content a {
-    margin: 20px;
-  }
+  padding: 200px 0;
+  background-color: #eee;
+}
+
+section.blog .container {
+  margin: auto;
+}
+
+section.blog .container h3 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #14b8a7;
+}
+
+section.blog .container h1 {
+  font-size: 40px;
+}
+
+section.blog .container p {
+  width: 50%;
+  margin: auto;
+  color: grey;
+}
+
+section.blog .content {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+section.blog .content .item {
+  margin: 30px 10px;
+  width: 70%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+section.blog .content img {
+  width: 100%;
+  max-height: 100px;
+}
+
+section.blog .content h3 {
+  padding: 20px;
+}
+
+section.blog .content p {
+  margin-left: 20px;
+  text-align: left;
+  color: grey;
+}
+
+section.blog .content a {
+  margin: 20px;
+}
