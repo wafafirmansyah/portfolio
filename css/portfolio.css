@@ -11,9 +11,7 @@ section.portfolio p {
   color: grey;
 }
 
-section.portfolio .progres h3,
-h1,
-p {
+section.portfolio .progres h3,h1, p {
   text-align: center;
   margin-bottom: 20px;
 }
@@ -30,9 +28,7 @@ section.portfolio .finish {
   margin-top: 100px;
 }
 
-section.portfolio .finish h3,
-h1,
-p {
+section.portfolio .finish h3, h1, p {
   text-align: center;
   margin-bottom: 20px;
 }
@@ -57,5 +53,6 @@ section.portfolio .picture h3 {
 
 section.portfolio .picture p {
   width: 90%;
+  margin: auto;
   text-align: left;
 }

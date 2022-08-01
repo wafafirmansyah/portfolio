@@ -9,11 +9,6 @@ nav {
   padding-top: 30px;
 }
 
-nav input {
-  margin-left: -300px;
-  margin-top: 5px;
-}
-
 nav .hamburger-menu div{
   display: none;
 }
@@ -22,6 +17,11 @@ nav .container {
   margin: auto;
   display: flex;
   justify-content: space-between;
+}
+
+nav .item {
+  display: flex;
+  margin-left: 20px;
 }
 
 nav ul {

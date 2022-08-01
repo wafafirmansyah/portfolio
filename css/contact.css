@@ -29,10 +29,12 @@ section.contact form {
 }
 
 section.contact form label {
-  padding-top: 5px;
+  padding: 10px 0;
 }
 
 section.contact form input,textarea {
+  border-radius: 10px;
+  background-color: #ddd;
   padding: 5px;
 }
 

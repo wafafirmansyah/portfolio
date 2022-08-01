@@ -61,6 +61,18 @@
   }
   /* ABOUT END */
 
+  /* PORTFOLIO */
+  section.portfolio .picture {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  section.portfolio .picture p {
+    margin: auto;
+    text-align: left;
+  }
+  /* PORTFOLIO END */
+  
   /* BLOG */
   section.blog .content {
     display: grid;

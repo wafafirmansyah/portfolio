@@ -26,13 +26,14 @@ section.blog .container p {
 section.blog .content {
   width: 80%;
   margin: auto;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 section.blog .content .item {
   margin: 30px 10px;
-  width: 70%;
+  max-width: 400px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
   overflow: hidden;
